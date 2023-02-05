@@ -1,0 +1,313 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+:root {
+  --color-important: rgb(255, 232, 174);
+  --color-definition: rgb(0, 73, 42);
+  --color-header-band: rgb(7, 79, 7);
+  --color-strong: rgb(204, 0, 51);
+}
+body { font-family: 'Droid Serif'; }
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+}
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+:not(.first):not(.section-change) > h2 {
+  background-color: var(--color-header-band);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 12px 20px; 
+}
+
+.remark-slide-content {
+  padding-top: 5em;
+}
+
+.author {
+  font-size: 0.8em;
+  position: absolute;
+  left: 10%;
+}
+
+.date {
+  font-size: 0.8em;
+  position: absolute;
+  left: 80%;
+}
+
+kbd {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #fff;
+  background-color: #333;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,0.25);
+}
+
+.section-change {
+  background: #272822;
+  color: #777872;
+  text-shadow: 0 0 20px #333;
+  text-align: center;
+  /* vertical-align: middle; */
+}
+.section-change h1 {
+  color: #f3f3f3;
+  line-height: 1em;
+  font-size:4em;
+}
+.section-change h2 {
+  color: #f3f3f3;
+  line-height: 1em;
+  font-size: 3em;
+}
+.section-change a { color:#77b6e5; }
+.section-change a:visited { color:#77b6e5; }
+.section-change .source {
+  color: antiquewhite;
+}
+.section-change ul {
+  text-align: left;
+  margin-left: 60px;
+  color: bisque;
+}
+
+.definition {
+  color: var(--color-definition);
+  font-weight: 600;
+}
+
+.important {
+  background: rgb(215, 214, 214);
+  display: block;
+}
+
+.important::before {
+  font-weight: 800;
+  content: "Important";
+  background: grey;
+  display: block;
+  padding: 5px;
+  color: var(--color-important);
+}
+
+.important > p {
+  margin-block: 0.5em;
+  padding: 0 5px 5px 5px;
+}
+
+blockquote > p {
+  width: 100%;
+  background: rgb(229, 229, 229);
+}
+
+blockquote > p .innerdef {
+  padding: 10px;
+  display: inline-block;
+}
+
+blockquote > p > strong {
+  width: 97.9%;
+  background: grey;
+  color: goldenrod;
+  display: block;
+  padding: 10px;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+.leg-fig {
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-auto table {
+  margin: auto;
+}
+
+.w120 img {
+  width: 120%;
+}
+
+.w115 img {
+  width: 115%;
+}
+
+.w110 img {
+  width: 110%;
+}
+
+.w105 img {
+  width: 105%;
+}
+
+.w100 img {
+  width: 100%;
+}
+
+.w95 img {
+  width: 95%;
+}
+
+.w90 img {
+  width: 90%;
+}
+
+.w85 img {
+  width: 85%;
+}
+
+.w80 img {
+  width: 80%;
+}
+
+.w75 img {
+  width: 75%;
+}
+
+.w70 img {
+  width: 70%;
+}
+
+.w65 img {
+  width: 65%;
+}
+
+.w60 img {
+  width: 60%;
+}
+
+.w55 img {
+  width: 55%;
+}
+
+.w50 img {
+  width: 50%;
+}
+
+.w45 img {
+  width: 45%;
+}
+
+.w40 img {
+  width: 40%;
+}
+
+.w35 img {
+  width: 35%;
+}
+
+.w30 img {
+  width: 30%;
+}
+
+.w25 img {
+  width: 25%;
+}
+
+.w20 img {
+  width: 20%;
+}
+
+.w15 img {
+  width: 15%;
+}
+
+.dflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.dflex > p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.foo {
+  width: 400px;
+  display: block;
+}
+
+.tiny {
+  font-size: 0.6em;
+}
+
+.small {
+  font-size: 0.75em;
+}
+
+.medium {
+  font-size: 0.9em;
+}
+
+.border img {
+  border: solid 1px black;
+}
+
+b, strong {
+  color: var(--color-strong);
+}
+
+.left-column, .pull-left { width: 49%; float: left; }
+.right-column, .pull-right { width: 49%; float: right; }
+
+.left-column-33  { width: 33%; float: left; }
+.right-column-66 { width: 66%; float: right; }
+
+.left-column-66  { width: 66%; float: left; }
+.right-column-33 { width: 33%; float: right; }
+
+.right-column ~ p, .left-column-66 ~ p, .left-column-33 ~ p { clear: both; }
+.right-column ~ ul, .right-column-66 ~ ul, .right-column-33 ~ ul { clear: both; }
+
+.clear {
+  clear: both;
+}
+
+th, td {
+  padding: 4px 10px;
+  border: solid 2px black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.table-mleft45 table {
+  margin-left: 45px;
+}
+
+.duration {
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 40px;
+  border: solid 1px black;
+  border-radius: 10px;
+  top: 30px;
+  right: 40px;
+  z-index: 100;
+  text-align: center;
+  background-color: yellowgreen;
+  line-height: 40px;
+  box-shadow: 0px 2px 0px 2px rgb(0 0 0 / 50%), 0px 2px 4px rgb(0 0 0 / 10%), 0px 4px 8px rgb(0 0 0 / 10%), 0px 8px 16px rgb(0 0 0 / 10%);
+  font-weight: 800;
+}
