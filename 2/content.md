@@ -24,12 +24,6 @@ class: center, middle, first
 ## Les données que nous allons explorer dans ce TD
 
 
-<!-- - Communes et Arrondissements Municipaux - CA Pays Basque : https://www.opendata-paysbasque.fr/explore/dataset/communes-et-arrondissements-municipaux-france0/information/
-
-- Géométries IRIS : https://geoservices.ign.fr/contoursiris#telechargement
-
-- Données revenues IRIS : https://www.insee.fr/fr/information/2383389 -->
-
 Les données que nous allons explorer dans ce TP et le suivant sont des extraits des jeux de données suivants:
 
 - Découpages administratifs pour l'ensemble de la France, IGN ADMIN EXPRESS, version 2023: https://geoservices.ign.fr/adminexpress#telechargement
@@ -44,7 +38,7 @@ Les données que nous allons explorer dans ce TP et le suivant sont des extraits
 
 <br>
 
-L'ensemble des données, dans une archive téléchargeable directement : [`data-seance2.zip`]() :
+L'ensemble des données, dans une archive téléchargeable directement : [`data-seance2.zip`](https://filesender.renater.fr/?s=download&token=84148f72-5001-4e0f-a9f6-834c9f8a79b8) :
 
 
 ```
