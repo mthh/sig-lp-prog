@@ -12,7 +12,7 @@ class: center, middle, first
 .author[
     Matthieu Viry (UAR RIATE / CNRS)
     <br>
-    🖂 <a href="maito:matthieu.viry@cnrs.fr">matthieu.viry@cnrs.fr</a>
+    🖂 <a href="mailto:matthieu.viry@cnrs.fr">matthieu.viry@cnrs.fr</a>
 ]
 
 .date[
@@ -73,11 +73,13 @@ Ce cours vise à vous faire tendre vers l&#39;**autonomie**, savoir poser les **
 
 <br>
 
-- **Projet** à composer en binôme :<br>**2/3 de la note** finale
+--
+
+- **TP** : **1/2 de la note** finale
 
 <br>
 
-- **Examen terminal**, par écrit (QCM et questions ouvertes), le 10/02/2023 (45min + tiers temps éventuel) : **1/3 de la note** finale
+- **Examen terminal**, par écrit (QCM et questions ouvertes), le 10/02/2023 (45min + tiers temps éventuel) : **1/2 de la note** finale
 
 
 ---
@@ -183,9 +185,9 @@ class: section-change
     * Fonctionnalités proposées
 
 - *TP* / **PostGIS 1**
-    * Import de données
+    * Installation PostgreSQL/PostGIS
 
-    * Jointures attributaires et spatiales
+    * Import de données
 
     * Interroger la dimension spatiale des données
 
@@ -197,7 +199,7 @@ class: section-change
 ### Après-midi
 
 - *TP* / **PostGIS 2**
-    * Import de données
+    * Import des données
 
     * Résoudre un problème simple d'analyse spatial en SQL
 
@@ -255,8 +257,15 @@ class: section-change
 
 ---
 
-.center[
+class: section-change
 
-### 🖂 <a href="maito:matthieu.viry@cnrs.fr">matthieu.viry@cnrs.fr</a>
+## Accéder aux supports...
 
-]
+## https://mthh.github.io/sig-lp-prog/
+
+
+<br><br><br><br>
+<br><br>
+
+#### 🖂 <a href="mailto:matthieu.viry@cnrs.fr">matthieu.viry@cnrs.fr</a>
+
