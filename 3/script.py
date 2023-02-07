@@ -1,4 +1,5 @@
 from qgis.core import *
+import json
 
 layer = QgsProject.instance().mapLayersByName("BPE_CA_PB_skatepark")[0]
 parameter = {
@@ -18,4 +19,4 @@ for f in result_reproj.getFeatures():
         "lat": pt.y(),
     })
 
-print(result_list)
+print(json.dumps(result_list))
