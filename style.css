@@ -33,12 +33,18 @@ h1, h2, h3 {
   font-size: 0.8em;
   position: absolute;
   left: 10%;
+  color: #4b4a4a;
+}
+
+.author a {
+  color: #4b4a4a;
 }
 
 .date {
   font-size: 0.8em;
   position: absolute;
   left: 80%;
+  color: #4b4a4a;
 }
 
 kbd {
@@ -310,4 +316,8 @@ table {
   line-height: 40px;
   box-shadow: 0px 2px 0px 2px rgb(0 0 0 / 50%), 0px 2px 4px rgb(0 0 0 / 10%), 0px 4px 8px rgb(0 0 0 / 10%), 0px 8px 16px rgb(0 0 0 / 10%);
   font-weight: 800;
+}
+
+.first h3 {
+  color: #cc0033
 }
