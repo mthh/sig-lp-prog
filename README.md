@@ -12,7 +12,7 @@
 
 - Séance 4 - [Cours](4/slides.html)
 
-- Séance 5 - [Cours](5/slides.html) / [TP](5/tp5.pdf)
+- Séance 5 - [Cours](5/slides.html) / [TP](5/tp5.pdf) / [Solutions possibles pour TP5](5/tp5-solutions.pdf)
 
 - Séance 6 - [TP](6/tp6.pdf)
 
