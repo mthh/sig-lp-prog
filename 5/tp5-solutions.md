@@ -401,8 +401,13 @@ ORDER BY st_distance(a.geom, b.geom) ASC LIMIT 1;
 ```
 
 
+\newpage{}
 
 ## 4.
+
+- Il faudrait faire une carte **choroplèthe** (en aplats de couleurs) puisque la variable "part de logements vacants" est une variable *quantitative relative*.
+
+- On pourrait créer, dans PostGIS, une table `quartier_log_vac` contenant la géométrie des quartiers, leurs labels et la part de logements vacants dans chacun d'entre eux :
 
 ```sql
 CREATE TABLE quartier_log_vac
@@ -420,3 +425,8 @@ ALTER TABLE quartier_log_vac ADD PRIMARY KEY (n_qu);
 
 SELECT Populate_Geometry_Columns('public.quartier_log_vac'::regclass);
 ```
+
+- Dans **QGIS** on va ensuite aller dans les options de symbologie, et demander une représentation *"graduée"* (*discrétisation des données en un nombre de classes donné*) :
+
+
+![&nbsp;](./images/choro_log_vac.png){ width=60% margin=auto }
